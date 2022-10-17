@@ -23,11 +23,11 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: rgb(155, 64, 153);
+    background-color: rgb(18, 17, 18);
   }
   
   .active {
-    background-color: #712d7a;
+    background-color: #4d494e;
   }
   
   .showcase-top-image{
@@ -35,7 +35,7 @@ ul {
   }
 
   body {
-    background-image: url("./images/photo-1462823985959-022de68638a2.avif");
+    background-image: url("./images/photo-1459278558918-f94278c0f022.avif");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -76,7 +76,7 @@ ul {
             }
 
             h2 {
-                color:rgb(27, 26, 26);
+                color:rgb(221, 219, 219);
                 text-shadow: 2px 2px 4px #000000;
               }
 
