@@ -76,7 +76,7 @@ ul {
 }
 
 body {
-    background-image: url("./images/photo-1587560699334-cc4ff634909a.avif");
+    background-image: url("./images/photo-1459278558918-f94278c0f022.avif");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -84,8 +84,9 @@ body {
   }
 
   .contact-form{
-    padding-right: 250px;
+    padding-right: 5px;
     padding-top: 50px;
+    padding-left: 0px;
   }
 
   .contact-me{
