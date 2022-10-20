@@ -64,12 +64,68 @@
     font-size: 18px;
   }
   
-  a {
+  .cardlinks a {
     text-decoration: none;
     font-size: 22px;
     color: black;
   }
   
-  button:hover, a:hover {
+  button:hover, .cardlinks a:hover {
     opacity: 0.7;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(109, 104, 104, 0.274);
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(18, 17, 18);
+  }
+  
+  .active {
+    background-color: #4d494e;
+  }
+
+  body {
+    background-image: url("./images/photo-1459278558918-f94278c0f022.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+   background-size: cover;
+  }
+  
+  .flip-card{
+    padding-top: 40px;
+  }
+
+  .bottom-card{
+    padding-top: 40px;
+  }
+  .testi{
+    display: flex;
+
+  }
+
+  .bottom-card{
+    background-color: azure;
+  }
+
+  .cardlinks{
+    
   }
