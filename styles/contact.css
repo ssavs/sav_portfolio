@@ -1,0 +1,103 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(109, 104, 104, 0.164);
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(18, 17, 18);
+  }
+  
+  .active {
+    background-color: #4d494e;
+  }
+  
+
+  .showcase-top-image{
+    border-radius: 50%;
+  }
+
+  body {
+    box-sizing: border-box;
+  }
+
+.input-container {
+  padding-right: 100px;
+  display: -ms-flexbox; 
+  display: flex;
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.icon {
+  padding: 15px;
+  background :rgb(54, 50, 54);
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 17px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 3px solid rgb(86, 82, 86);
+}
+
+.btn {
+  background-color: rgb(139, 130, 138);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 1
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+body {
+    background-image: url("./images/photo-1459278558918-f94278c0f022.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+   background-size: cover;
+  }
+
+  .contact-form{
+    padding-right: 5px;
+    padding-top: 50px;
+    padding-left: 0px;
+  }
+
+  .contact-me{
+    color: white;
+    display: flex; justify-content: center;
+  }
+
+  h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  
+  
