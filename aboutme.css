@@ -1,29 +1,9 @@
 
 
-.left {
-left: 0;
-background-color: rgba(61, 59, 59, 0.348);
-color: whitesmoke;
-text-align: center
-}
-
-.right{
-background-color: rgba(34, 32, 32, 0);
-right: 10;
-color: rgb(247, 244, 241);
-text-align: center;
-margin-left: 30%;
-padding: 20px;
-}
-
-.centered img {
-    width: 200px;
-    border-radius: 20%;
-}
-
 h1 {
-    color: rgb(228, 225, 225);
+    color: rgb(66, 62, 62);
     text-shadow: 2px 2px 4px white;
+    padding: 1px;
   }
 
   h3{
@@ -80,47 +60,25 @@ ul {
   padding: 10px;
 }
  
-.column{
-  float: left;
-}
 
-.left{
-  width: 25%;
-}
-
-/* .right{
-  width: 75%;
-} */
-
-.left ul{
-  display: flex;
-  gap: 2rem;
-}
-
-.left ul li{
-  display: flex;
-  gap: 2rem;
-}
 
 h2 {
-  color: rgb(199, 193, 193);
-  text-shadow: 2px 2px 4px rgb(80, 77, 77);
+  color: rgb(234, 229, 229);
+  text-shadow: 2px 2px 4px rgb(46, 45, 45);
 }
 
 * {box-sizing: border-box}
 
-h1.test2 {
-  writing-mode: vertical-rl;
-}
 
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
+  padding: 18px;
+  font-size: 35px !important;
+  width: 60px;
+  height: 60px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 4px 2px;
 }
 
 .fa:hover {
@@ -137,7 +95,41 @@ h1.test2 {
   color: white;
 }
 
-.fa-google {
-  background: #dd4b39;
+
+.fa-instagram {
+  background: #7c499c;
   color: white;
 }
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+p{
+  padding: 3.3%;
+}
+
+.w3-sidebar {
+  background-color: #4d494ee0;
+  background: #4d494e;
+}
+
+.logo{
+  padding: 0px;
+  padding-right: 0px;
+  margin: 25px;
+}
+
+h3 {color: rgb(166, 164, 164);
+  text-shadow: 2px 2px 4px rgb(168, 166, 166);
+
+}
+.container{
+  margin-left: 25%;
+  margin-right: 30%;
+}
+
+.container{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
